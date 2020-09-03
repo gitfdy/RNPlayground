@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RNPlayground.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<false/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>67AD7FF1B512122D2B654B9A0D63DF60EB8D6FEE</string>
+				<key>dateExpires</key>
+				<string>2021/8/19</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>K7YKK82L2P.tbp.mobile.com</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>K7YKK82L2P</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>K7YKK82L2P.tbp.mobile.com</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>RNPlayground.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>d69c3c76-01ea-4d6f-93d0-5a8bfc181b85</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: tbp.mobile.com</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>K7YKK82L2P</string>
+				<key>name</key>
+				<string>Guangzhou Huola Network Technology Co., Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

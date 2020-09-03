@@ -1,0 +1,130 @@
+2020-09-03 06:01:27 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff28b05d9d0; archive(resolved)='<IDEArchive: 0x7ff28a5ada10>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff2abb99440; teamID='K7YKK82L2P', teamName='Guangzhou Huola Network Technology Co., Ltd.', teamType='Company', username='625713695@qq.com', isFreeProvisioningTeam='0'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff28b05d9d0; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff2abb99440; teamID='K7YKK82L2P', teamName='Guangzhou Huola Network Technology Co., Ltd.', teamType='Company', username='625713695@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ff287aed040; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff2abb99440; teamID='K7YKK82L2P', teamName='Guangzhou Huola Network Technology Co., Ltd.', teamType='Company', username='625713695@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff28a8dc760; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff2abb99440; teamID='K7YKK82L2P', teamName='Guangzhou Huola Network Technology Co., Ltd.', teamType='Company', username='625713695@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff28c05ca00; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff2abb99440; teamID='K7YKK82L2P', teamName='Guangzhou Huola Network Technology Co., Ltd.', teamType='Company', username='625713695@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff28936f670; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff2abb99440; teamID='K7YKK82L2P', teamName='Guangzhou Huola Network Technology Co., Ltd.', teamType='Company', username='625713695@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff28a044610; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff2abb99440; teamID='K7YKK82L2P', teamName='Guangzhou Huola Network Technology Co., Ltd.', teamType='Company', username='625713695@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff28a8392a0; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff2abb99440; teamID='K7YKK82L2P', teamName='Guangzhou Huola Network Technology Co., Ltd.', teamType='Company', username='625713695@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff28a8f6050; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff2abb99440; teamID='K7YKK82L2P', teamName='Guangzhou Huola Network Technology Co., Ltd.', teamType='Company', username='625713695@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff28a8c9ce0; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff2abb99440; teamID='K7YKK82L2P', teamName='Guangzhou Huola Network Technology Co., Ltd.', teamType='Company', username='625713695@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff28a8d4f90; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='(null)'>
+	<IDEDistributionContext: 0x7ff28a8d6680; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='(null)'>
+	<IDEDistributionContext: 0x7ff28a8d9130; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff288a32b40>', team='(null)'>
+	<IDEDistributionContext: 0x7ff28a85dd60; archive = '<IDEArchive: 0x7ff28a5ada10>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ff28b05d9d0>
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionCopyItemStep
+2020-09-03 06:01:27 +0000  Running /usr/bin/ditto '-V' '/Users/fandongyang/Library/Developer/Xcode/Archives/2020-09-03/RNPlayground 2020-9-3, 2.01 PM.xcarchive/Products/Applications/RNPlayground.app' '/var/folders/mc/0y0_gzl15f99jmg3lp8_2xyr0000gn/T/XcodeDistPipeline.~~~qRpWzQ/Root/Payload/RNPlayground.app'
+2020-09-03 06:01:27 +0000  >>> Copying /Users/fandongyang/Library/Developer/Xcode/Archives/2020-09-03/RNPlayground 2020-9-3, 2.01 PM.xcarchive/Products/Applications/RNPlayground.app 
+2020-09-03 06:01:27 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-09-03 06:01:27 +0000  4021 bytes for ./_CodeSignature/CodeResources
+copying file ./RNPlayground ... 
+2020-09-03 06:01:27 +0000  31921712 bytes for ./RNPlayground
+2020-09-03 06:01:27 +0000  copying file ./Base.lproj/LaunchScreen.nib ... 
+3158 bytes for ./Base.lproj/LaunchScreen.nib
+2020-09-03 06:01:27 +0000  copying file ./main.jsbundle ... 
+2020-09-03 06:01:27 +0000  685063 bytes for ./main.jsbundle
+copying file ./pushy_build_time.txt ... 
+2020-09-03 06:01:27 +0000  11 bytes for ./pushy_build_time.txt
+copying file ./embedded.mobileprovision ... 
+2020-09-03 06:01:27 +0000  9477 bytes for ./embedded.mobileprovision
+2020-09-03 06:01:27 +0000  copying file ./assets/app.json ... 
+61 bytes for ./assets/app.json
+copying file ./assets/node_modules/react-native-update/package.json ... 
+870 bytes for ./assets/node_modules/react-native-update/package.json
+copying file ./assets/update.json ... 
+200 bytes for ./assets/update.json
+copying file ./Info.plist ... 
+1282 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2020-09-03 06:01:27 +0000  8 bytes for ./PkgInfo
+2020-09-03 06:01:27 +0000  /usr/bin/ditto exited with 0
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionInfoPlistStep
+2020-09-03 06:01:27 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-09-03 06:01:27 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-09-03 06:01:27 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-09-03 06:01:27 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionSymbolsStep
+2020-09-03 06:01:27 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionAppThinningStep
+2020-09-03 06:01:27 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionArchThinningStep
+2020-09-03 06:01:27 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/mc/0y0_gzl15f99jmg3lp8_2xyr0000gn/T/XcodeDistPipeline.~~~qRpWzQ/Root/Payload/RNPlayground.app/RNPlayground' '-verify_arch' 'arm64e'
+2020-09-03 06:01:27 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-03 06:01:27 +0000  Skipping architecture thinning for item "RNPlayground" because arch "arm64e" wasn't found
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionODRStep
+2020-09-03 06:01:27 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-09-03 06:01:27 +0000  Running /usr/bin/xattr '-crs' '/var/folders/mc/0y0_gzl15f99jmg3lp8_2xyr0000gn/T/XcodeDistPipeline.~~~qRpWzQ/Root/Payload/RNPlayground.app'
+2020-09-03 06:01:28 +0000  /usr/bin/xattr exited with 0
+2020-09-03 06:01:28 +0000  Processing step: IDEDistributionCodesignStep
+2020-09-03 06:01:28 +0000  Entitlements for <IDEDistributionItem: 0x7ff288e5e210; bundleID='tbp.mobile.com', path='<DVTFilePath:0x7ff28a8775c0:'/Users/fandongyang/Library/Developer/Xcode/Archives/2020-09-03/RNPlayground 2020-9-3, 2.01 PM.xcarchive/Products/Applications/RNPlayground.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff28a8ceb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff28a8c4fe0; name='Apple Development: XIAOXING XIAO (Y5QJ89BCM7)', hash='9B43D4FD485DC0316C0D1708F3A611E3525E991B', serialNumber='651D907ED699E621', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-19 05:40:05 +0000''>', entitlements='{
+    "application-identifier" = "K7YKK82L2P.tbp.mobile.com";
+    "com.apple.developer.team-identifier" = K7YKK82L2P;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "K7YKK82L2P.tbp.mobile.com"
+    );
+}', teamID='K7YKK82L2P', identifier='tbp.mobile.com', executablePath='<DVTFilePath:0x7ff28aa22d40:'/Users/fandongyang/Library/Developer/Xcode/Archives/2020-09-03/RNPlayground 2020-9-3, 2.01 PM.xcarchive/Products/Applications/RNPlayground.app/RNPlayground'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "K7YKK82L2P.tbp.mobile.com";
+    "com.apple.developer.team-identifier" = K7YKK82L2P;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "K7YKK82L2P.tbp.mobile.com"
+    );
+}
+2020-09-03 06:01:28 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff288e5e210; bundleID='tbp.mobile.com', path='<DVTFilePath:0x7ff28a8775c0:'/Users/fandongyang/Library/Developer/Xcode/Archives/2020-09-03/RNPlayground 2020-9-3, 2.01 PM.xcarchive/Products/Applications/RNPlayground.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff28a8ceb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff28a8f2120; name='Apple Development: XIAOXING XIAO (Y5QJ89BCM7)', hash='9B43D4FD485DC0316C0D1708F3A611E3525E991B', serialNumber='651D907ED699E621', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-08-19 05:40:05 +0000''>', entitlements='{
+    "application-identifier" = "K7YKK82L2P.tbp.mobile.com";
+    "com.apple.developer.team-identifier" = K7YKK82L2P;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "K7YKK82L2P.tbp.mobile.com"
+    );
+}', teamID='K7YKK82L2P', identifier='tbp.mobile.com', executablePath='<DVTFilePath:0x7ff28aa22d40:'/Users/fandongyang/Library/Developer/Xcode/Archives/2020-09-03/RNPlayground 2020-9-3, 2.01 PM.xcarchive/Products/Applications/RNPlayground.app/RNPlayground'>', hardenedRuntime='0'>'> to: /var/folders/mc/0y0_gzl15f99jmg3lp8_2xyr0000gn/T/XcodeDistPipeline.~~~qRpWzQ/entitlements~~~7BoCdZ
+2020-09-03 06:01:28 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '67AD7FF1B512122D2B654B9A0D63DF60EB8D6FEE' '--entitlements' '/var/folders/mc/0y0_gzl15f99jmg3lp8_2xyr0000gn/T/XcodeDistPipeline.~~~qRpWzQ/entitlements~~~7BoCdZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/mc/0y0_gzl15f99jmg3lp8_2xyr0000gn/T/XcodeDistPipeline.~~~qRpWzQ/Root/Payload/RNPlayground.app'
+2020-09-03 06:01:28 +0000  /var/folders/mc/0y0_gzl15f99jmg3lp8_2xyr0000gn/T/XcodeDistPipeline.~~~qRpWzQ/Root/Payload/RNPlayground.app: signed app bundle with Mach-O universal (armv7 arm64) [tbp.mobile.com]
+2020-09-03 06:01:28 +0000  /usr/bin/codesign exited with 0
+2020-09-03 06:01:28 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-09-03 06:01:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-03 06:01:28 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-09-03 06:01:28 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/mc/0y0_gzl15f99jmg3lp8_2xyr0000gn/T/XcodeDistPipeline.~~~qRpWzQ/Root' '/var/folders/mc/0y0_gzl15f99jmg3lp8_2xyr0000gn/T/XcodeDistPipeline.~~~qRpWzQ/Packages/RNPlayground.ipa'
+2020-09-03 06:01:28 +0000  >>> Copying /var/folders/mc/0y0_gzl15f99jmg3lp8_2xyr0000gn/T/XcodeDistPipeline.~~~qRpWzQ/Root 
+2020-09-03 06:01:28 +0000  copying file ./Payload/RNPlayground.app/_CodeSignature/CodeResources ... 
+2020-09-03 06:01:28 +0000  4021 bytes for ./Payload/RNPlayground.app/_CodeSignature/CodeResources
+copying file ./Payload/RNPlayground.app/RNPlayground ... 
+2020-09-03 06:01:28 +0000  4027168 bytes for ./Payload/RNPlayground.app/RNPlayground
+2020-09-03 06:01:28 +0000  copying file ./Payload/RNPlayground.app/Base.lproj/LaunchScreen.nib ... 
+3158 bytes for ./Payload/RNPlayground.app/Base.lproj/LaunchScreen.nib
+copying file ./Payload/RNPlayground.app/main.jsbundle ... 
+2020-09-03 06:01:28 +0000  685063 bytes for ./Payload/RNPlayground.app/main.jsbundle
+copying file ./Payload/RNPlayground.app/pushy_build_time.txt ... 
+2020-09-03 06:01:28 +0000  11 bytes for ./Payload/RNPlayground.app/pushy_build_time.txt
+copying file ./Payload/RNPlayground.app/embedded.mobileprovision ... 
+9573 bytes for ./Payload/RNPlayground.app/embedded.mobileprovision
+copying file ./Payload/RNPlayground.app/assets/app.json ... 
+61 bytes for ./Payload/RNPlayground.app/assets/app.json
+copying file ./Payload/RNPlayground.app/assets/node_modules/react-native-update/package.json ... 
+2020-09-03 06:01:28 +0000  870 bytes for ./Payload/RNPlayground.app/assets/node_modules/react-native-update/package.json
+copying file ./Payload/RNPlayground.app/assets/update.json ... 
+200 bytes for ./Payload/RNPlayground.app/assets/update.json
+copying file ./Payload/RNPlayground.app/Info.plist ... 
+1282 bytes for ./Payload/RNPlayground.app/Info.plist
+copying file ./Payload/RNPlayground.app/PkgInfo ... 
+2020-09-03 06:01:28 +0000  8 bytes for ./Payload/RNPlayground.app/PkgInfo
+2020-09-03 06:01:28 +0000  /usr/bin/ditto exited with 0
+2020-09-03 06:01:28 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-09-03 06:01:28 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-09-03 06:01:28 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-09-03 06:01:28 +0000  Processing step: IDEDistributionCreateManifestStep

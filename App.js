@@ -7,10 +7,10 @@
  */
 
 import React from 'react';
-import {Text} from 'react-native';
-
+import Index from './src';
 const App: () => React$Node = () => {
-    return <Text>Hello fan</Text>;
+
+    return <Index />;
 };
 
 
