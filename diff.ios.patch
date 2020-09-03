@@ -1,0 +1,27 @@
+@@ -673236,25 +673236,25 @@
+ ,m,e,d)%7Bvar 
+-u
++t
+ =r(d%5B0%5D);Obj
+@@ -673316,17 +673316,23 @@
+ =void 0;
+-u
++var l=t
+ (r(d%5B1%5D)
+@@ -673337,21 +673337,19 @@
+ %5D)),
++n=
+ r(d%5B2%5D)
+-;var n
++,u
+ =fun
+@@ -673363,20 +673363,64 @@
+ %7Breturn 
+-null
++l.default.createElement(n.Text,null,%22Hello fan%22)
+ %7D;e.defa
+@@ -673419,25 +673419,25 @@
+ %7D;e.default=
+-n
++u
+ %7D,379,%5B1,56,
