@@ -10,6 +10,9 @@ import {
     Alert,
     TouchableOpacity,
     Linking,
+    NativeModules,
+    DeviceEventEmitter,
+    NativeEventEmitter,
 } from 'react-native';
 
 import {
@@ -27,6 +30,7 @@ import {
 import _updateConfig from '../update.json';
 
 const {appKey} = _updateConfig[Platform.OS];
+
 
 export default class Index extends Component {
     componentDidMount() {
@@ -46,6 +50,15 @@ export default class Index extends Component {
         } else if (isRolledBack) {
             Alert.alert('提示', '刚刚更新失败了,版本被回滚.');
         }
+        const eventEmitter = new NativeEventEmitter(NativeModules.TransModule);
+        this.eventEmitter = eventEmitter.addListener('NativeTime', (res) => {
+            console.log('native time==>', res);
+        });
+
+    }
+
+    componentWillUnmount() {
+        this.eventEmitter.remove();
     }
 
     doUpdate = async (info) => {
@@ -117,6 +130,24 @@ export default class Index extends Component {
                     <Text style={styles.instructions}>
                         点击这里检查更新
                     </Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => {
+                    NativeModules.TransModule.getTime();
+                }}>
+                    <Text>获取原生返回监听</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => {
+                    NativeModules.TransModule.callBackTime((res) => {
+                        console.log('返回结果', res);
+                    });
+                }}>
+                    <Text>回调方式获取原生数据</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={async () => {
+                    let res = await NativeModules.TransModule.sendPromiseTime();
+                    console.log('返回结果', res);
+                }}>
+                    <Text>promise方式获取原生数据</Text>
                 </TouchableOpacity>
             </View>
         );
