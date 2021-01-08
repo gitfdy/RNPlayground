@@ -8,7 +8,8 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "bundle": "react-native bundle --entry-file index.js  --platform android --bundle-output ./bundle/android/index.android.bundle --assets-dest ./bundle/android/ --dev false & react-native bundle --entry-file index.js  --platform ios --bundle-output ./bundle/android/index.ios.bundle --assets-dest ./bundle/ios/ --dev false"
+    "bundle": "rm -rf bundle && mkdir bundle && mkdir bundle/ios && mkdir bundle/android &&  react-native bundle --entry-file index.js  --platform android --bundle-output ./bundle/android/index.android.bundle --assets-dest ./bundle/android/ --dev false &&  react-native bundle --entry-file index.js  --platform ios --bundle-output ./bundle/ios/index.ios.bundle --assets-dest ./bundle/ios/ --dev false"
+
   },
   "dependencies": {
     "react": "16.9.0",
