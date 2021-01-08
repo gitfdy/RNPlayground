@@ -1,3 +1,5 @@
 {
-  "version_code": 100
+  "android": 100,
+  "ios": 101,
+  "fridge": 102
 }
